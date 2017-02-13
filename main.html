@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>컨아 컨셉아트학원 홈페이지</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <link rel="stylesheet" href="css/CAschool.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js">
+    </script>
+    <script src="js/jCAschoolmain.js"></script>
+
+    <style>
+        #wor h1 {
+            margin-top: 30px;
+            margin-left: 50px;
+        }
+        /*------------------------------------------------------슬라이드------------------------------------------------------*/
+        
+        #window {
+            float: right;
+        }
+    </style>
+
+</head>
+
+<body>
+    <!------------------------------------------------------메인 헤드------------------------------------------------------>
+    <div id="wor">
+        <header>
+            <nav>
+                <ul id="drop">
+                    <li class="dropdown">
+                        <a href="main.html" class="dropbtn">HOME</a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropbtn">학원소개 ▼</a>
+                        <div class="dropdown-content">
+                            <a href="story.html">CA학원소개</a>
+                            <a href="#">강사소개</a>
+                            <a href="#">찾아오는길</a>
+                        </div>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropbtn">모집과정안내 ▼</a>
+                        <div class="dropdown-content">
+                            <a href="#">게임컨셉아트</a>
+                            <a href="#">표지컨셉아트</a>
+                            <a href="#">입시준비반</a>
+                        </div>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropbtn">학생갤러리 ▼</a>
+                    </li>
+
+                </ul>
+            </nav>
+        </header>
+
+        <h1>CA Art School</h1>
+        <!------------------------------------------------------ 슬라이드 ------------------------------------------------------>
+        <div id="window">
+            <div id="group">
+                <img id "img1" src="img/con01.jpg" width="700px" height="500">
+                <img id "img2" src="img/con02.jpg" width="700px" height="500">
+                <img id "img3" src="img/con03.jpg" width="700px" height="500">
+                <img id "img4" src="img/con04.jpg" width="700px" height="500">
+                <img id "img5" src="img/con05.jpg" width="700px" height="500">
+            </div>
+        </div>
+        <!------------------------------------------------------ 비디오 ------------------------------------------------------>
+        <div id="vods">
+            <iframe id="vod" width="420" height="345" src="https://www.youtube.com/embed/7S4ba9rwVAU">
+            </iframe>
+        </div>
+
+        <!------------------------------------------------------ 로그인 ------------------------------------------------------>
+
+        <div id="login">
+            <fieldset class="login_form">
+                <legend class="blind">로그인</legend>
+
+                <div class="input_row" id="id_area">
+                    <span class="input_box">
+				    <ul>
+                        <label for="id" id="label_id_area" class="lbl" style='display:none' >아이디</label>
+						<input type="text" id="id" name="id" tabindex="7" accesskey="L" placeholder="아이디" class="int" maxlength="41" value="">
+				        <label for="pw" id="label_pw_area"  class="lbl" style='display:none'>비밀번호</label>
+						<input type="password" id="pw" name="pw" tabindex="8" placeholder="비밀번호" class="int" maxlength="16">
+                        <a>
+                        <input type="submit" title="로그인" alt="로그인" tabindex="12" value="로그인" class="btn_global" onclick="#">
+                        </a>
+                    </ul>                 
+                    </span>
+                </div>
+
+                <br/>
+
+                <div class="check_info">
+                    <div class="position_a">
+                        <div class="find_info">
+                            <a target="_blank" href="#" onclick="#">아이디 찾기</a> <span class="bar">|</span>
+                            <a target="_blank" href="#" onclick="#">비밀번호 찾기</a> <span class="bar">|</span>
+                            <a target="_blank" href="#" onclick="#">회원가입</a>
+                        </div>
+                    </div>
+                </div>
+            </fieldset>
+        </div>
+
+
+        <!-----------------------------------------------------모달윈도우----------------------------------------------------->
+
+        <ul id="modals">
+            <!--1-->
+            <li>
+                <a href="img/con06.jpg" class="modal"><img src="img/con06.jpg" width="200px" height="100px" alt="학생작품1"></a>
+            </li>
+            <!--2-->
+            <li>
+                <a href="img/con07.jpg" class="modal"><img src="img/con07.jpg" width="200px" height="100px" alt="학생작품2"></a>
+            </li>
+            <!--3-->
+            <li>
+                <a href="img/con08.jpg" class="modal"><img src="img/con08.jpg" width="200px" height="100px" alt="학생작품3"></a>
+            </li>
+            <!--4-->
+            <li>
+                <a href="img/con09.jpg" class="modal"><img src="img/con09.jpg" width="200px" height="100px" alt="학생작품4"></a>
+            </li>
+            <!--5-->
+            <li>
+                <a href="img/con10.jpg" class="modal"><img src="img/con10.jpg" width="200px" height="100px" alt="학생작품5"></a>
+            </li>
+            <!--6-->
+            <li>
+                <a href="img/con11.jpg" class="modal"><img src="img/con11.jpg" width="200px" height="100px" alt="학생작품6"></a>
+            </li>
+            <!--7-->
+            <li>
+                <a href="img/con12.jpg" class="modal"><img src="img/con12.jpg" width="200px" height="100px" alt="학생작품7"></a>
+            </li>
+            <!--8-->
+            <li>
+                <a href="img/con13.jpg" class="modal"><img src="img/con13.jpg" width="200px" height="100px" alt="학생작품8"></a>
+            </li>
+            <!--9-->
+            <li>
+                <a href="img/con14.jpg" class="modal"><img src="img/con14.jpg" width="200px" height="100px" alt="학생작품9"></a>
+            </li>
+            <!--10-->
+            <!--
+            <li>
+                <a href="img/con15.jpg" class="modal"><img src="img/con15.jpg" width="200px" height="100px" alt="학생작품10"></a>
+            </li>
+-->
+        </ul>
+
+        <div id="glayLayer"></div>
+        <div id="overLayer"></div>
+
+        <!-----------------------------------------------------최신 소식----------------------------------------------------->
+        <div id="news">
+            <article class="in_news">
+                <h2>최신 소식</h2>
+                <li>10월 수업 공지</li>
+                <li>10월 ㅅㅇㄱ대학교 합격자</li>
+                <li>10월 ㄴㅎㅂ게임 회사 함격자</li>
+                <li>10월 K,S,M 방송사 합격자</li>
+                <li>10월 취업정보 공지</li>
+                <li>9월 수업 공지</li>
+                <li>9월 입시정보 공지</li>
+                <li>9월 취업정보 공지</li>
+                <li>9월 수시전형 합격자 </li>
+                <li>9월 공채모집 정보</li>
+                <li>8월 수업 공지</li>
+            </article>
+        </div>
+    </div>
+    <!----------------------------------------------------- 바닥글 ----------------------------------------------------->
+    
+    <footer>
+        <p>Copyrightsⓒ concept Art CA school.</p>
+    </footer>
+
+</body>
+
+</html>
